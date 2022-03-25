@@ -64,7 +64,7 @@ def main(req: func.HttpRequest,
         logging.info(json_loads_py)
 
         
-        
+        ### Do different unit tests
         validate(instance=json_loads_py, schema=invoice_schema)
         logging.info("JSON schema is valid!")
 
