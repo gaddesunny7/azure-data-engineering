@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "ehdevaz_RootManageSharedAccessKey_EVENTHUB": "Endpoint=sb://eh-dev-az.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WOjagYSRccJ9fJuSvZgN7oc/J8GfOLMgAbbUdeEBOT0=;EntityPath=eh-ns-dev-az"
+  }
+}
