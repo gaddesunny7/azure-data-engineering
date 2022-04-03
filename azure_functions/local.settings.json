@@ -1,8 +1,8 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "",
+    "ehdevaz_RootManageSharedAccessKey_EVENTHUB": "Endpoint=sb://eh-dev-az.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BdfM6sMPa3KINn7s4W0uton0t3L92G6ZS8VysAFBru4=;EntityPath=eventhubdevaz",
     "FUNCTIONS_WORKER_RUNTIME": "python",
-    "ehdevaz_RootManageSharedAccessKey_EVENTHUB": "Endpoint=sb://eh-dev-az.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WOjagYSRccJ9fJuSvZgN7oc/J8GfOLMgAbbUdeEBOT0=;EntityPath=eh-ns-dev-az"
+    "csdbdevaz_DOCUMENTDB": "AccountEndpoint=https://csdb-dev-az.documents.azure.com:443/;AccountKey=RPyR3gLUHR9IsqJEjS6nPjMYdN07pOS8fu5EGxpRTDPRihBYS0t74mZXTJzeoZlEjY93x18UERFtE9JT2Gb0Hw==;"
   }
 }
