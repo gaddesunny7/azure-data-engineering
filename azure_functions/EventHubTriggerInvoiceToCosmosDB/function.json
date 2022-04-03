@@ -1,0 +1,26 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "events",
+      "direction": "in",
+      "eventHubName": "eventhubdevaz",
+      "connection": "ehdevaz_RootManageSharedAccessKey_EVENTHUB",
+      "cardinality": "many",
+      "consumerGroup": "$Default",
+      "dataType": "binary"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "outputDocument",
+      "databaseName": "sales_data",
+      "collectionName": "invoice",
+      "createIfNotExists": true,
+      "connectionStringSetting": "csdbdevaz_DOCUMENTDB",
+      "partitionKey": "InvoiceNo"
+    }
+
+  ]
+}
