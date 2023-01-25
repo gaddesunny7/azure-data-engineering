@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "azstorageaccountdevaz_STORAGE": "DefaultEndpointsProtocol=https;AccountName=azstorageaccountdevaz;AccountKey=4W9DTOsG3CI2AsXX784ubuKDKaC6vHfMA8hMT2PBVvjX5JUO74TLmPES5dS6ufy7ZKS92KziVE76+AStNcukDg==;EndpointSuffix=core.windows.net",
+    "evhubsnsdevaz_RootManageSharedAccessKey_EVENTHUB": "Endpoint=sb://evhubsnsdevaz.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Axe2yG27j+BJ0VQac7F3pOjjIb9vIFatLi9wfT+I7Uc=;EntityPath=evhubsdevazneur",
+    "azcsdbdevaznoeur_DOCUMENTDB": "AccountEndpoint=https://azcsdbdevaznoeur.documents.azure.com:443/;AccountKey=ViMLfc5FEfzgj2xKxo06uITa1E0p0WEXfZQemmZnBkWAO9yUdrpmQq7AxpW4R80ZspQvQNLvcA34ACDbru1njA==;",
+    "azcdaccdevaz_DOCUMENTDB": "AccountEndpoint=https://azcdacc-dev-az.documents.azure.com:443/;AccountKey=aTzZpepQbR33TzJe0YLtKscV3MjSaFFtY5hjY8OAj2XOOcJIX91QM1SjTIzbGgRwCfpFGLtFYw6iACDbnKR21g==;"
+  }
+}
