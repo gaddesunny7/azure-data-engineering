@@ -39,7 +39,7 @@ if invoices < 20:  # tweets_stream_sample.shape[0]:
                 print(
                     f"Request number {i} NOT succeded! Status code {request.status_code}")
 else:
-    print(f"Maximum number of tweets is {invoice_sample.shape[0]}, and you have chosen: {invoices}. Please choose a smaller number!")
+    print(f"Maximum number of Invoices is {invoice_sample.shape[0]}, and you have chosen: {invoices}. Please choose a smaller number!")
 
     
     
