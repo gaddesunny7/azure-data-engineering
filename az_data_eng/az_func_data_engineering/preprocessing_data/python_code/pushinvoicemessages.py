@@ -7,12 +7,12 @@ import time
 
 #load_dotenv()
 
-OCP_APIM_SUBSCRIPTION_VALUE = "47948f31d8ca4e2f804e9f1561ae2164"
-URL = "https://api-mg-rg-dev-az.azure-api.net/fap-dev-az/HttpTriggerSendInvoiceDataToEventHub"
+OCP_APIM_SUBSCRIPTION_VALUE = "11111111111111111111111111111111111111"
+URL = "1111111111111111111111111111111111111111111111"
 
 headers = {
-    'Host': 'api-mg-rg-dev-az.azure-api.net',
-    'Ocp-Apim-Subscription-Key': OCP_APIM_SUBSCRIPTION_VALUE,
+    'Host': '**************************************',
+    'Ocp-Apim-Subscription-Key': '**************************************',
     'Ocp-Apim-Trace': 'true'
 }
 
